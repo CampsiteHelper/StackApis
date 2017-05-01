@@ -40,6 +40,7 @@ else
     aws ecs create-service --cluster $AWS_ECS_CLUSTER_NAME --service-name $ECS_SERVICE --task-definition "$ECS_TASK:$TASK_REVISION" --desired-count 1 --region $AWS_DEFAULT_REGION --role $AWS_ECS_ELB_ROLE --load-balancers $AWS_LOAD_BALANCER 
 fi
 
+
 echo $ECS_SERVICE
 echo $AWS_DEFAULT_REGION
 
