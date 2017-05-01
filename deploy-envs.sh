@@ -11,6 +11,8 @@ export AWS_LOAD_BALANCER=targetGroupArn=arn:aws:elasticloadbalancing:us-east-1:0
 export AWS_ECS_ELB_ROLE=arn:aws:iam::025075093992:role/ecsInstanceRole
 
 # set any sensitive information in travis-ci encrypted project settings:
+
+#...
 # required: AWS_ACCOUNT_NUMBER, AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY
 
 `
